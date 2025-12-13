@@ -1,0 +1,212 @@
+Linux Commands with Explanation (Basic to Senior Level)
+
+This guide covers Linux commands from beginner to senior DevOps level, explained in clear and simple English.
+
+🔹 BASIC LEVEL (Beginner)
+pwd
+
+Shows the current working directory.
+
+Example: pwd
+
+ls
+
+Lists files and directories.
+
+Common usage: ls ls -l ls -a
+
+cd
+
+Changes directory.
+
+Examples: cd folder_name cd .. cd ~
+
+mkdir
+
+Creates a directory.
+
+Example: mkdir app mkdir -p app/logs/nginx
+
+touch
+
+Creates an empty file.
+
+Example: touch file.txt
+
+rm
+
+Removes files or directories.
+
+Example: rm file.txt rm -r folder
+
+🔹 INTERMEDIATE LEVEL (System & File Handling)
+cp
+
+Copies files or directories.
+
+Example: cp file1 file2 cp -r dir1 dir2
+
+mv
+
+Moves or renames files.
+
+Example: mv old.txt new.txt mv file.txt /tmp/
+
+cat
+
+Displays file content.
+
+Example: cat file.txt
+
+less
+
+Views large files safely.
+
+Example: less app.log
+
+grep
+
+Searches text inside files.
+
+Example: grep error app.log grep -i error app.log
+
+find
+
+Finds files and directories.
+
+Example: find / -name file.txt
+
+chmod
+
+Changes file permissions.
+
+Example: chmod 755 script.sh
+
+chown
+
+Changes file owner and group.
+
+Example: chown ubuntu:ubuntu file.txt
+
+🔹 ADVANCED LEVEL (System, Process, Networking)
+ps
+
+Shows running processes.
+
+Example: ps -ef
+
+top
+
+Displays real-time system processes.
+
+Example: top
+
+kill
+
+Stops a process.
+
+Example: kill PID kill -9 PID
+
+df
+
+Shows disk usage.
+
+Example: df -h
+
+free
+
+Shows memory usage.
+
+Example: free -m
+
+uname
+
+Shows system information.
+
+Example: uname -a
+
+ip
+
+Shows network information.
+
+Example: ip a
+
+ping
+
+Checks network connectivity.
+
+Example: ping google.com
+
+curl
+
+Calls APIs or URLs.
+
+Example: curl https://example.com
+
+wget
+
+Downloads files from the internet.
+
+Example: wget https://example.com/file.zip
+
+🔹 SENIOR / DEVOPS LEVEL
+tar
+
+Creates or extracts archive files.
+
+Example: tar -cvf backup.tar folder/ tar -xvf backup.tar
+
+systemctl
+
+Manages system services.
+
+Example: systemctl status nginx systemctl start nginx systemctl stop nginx
+
+journalctl
+
+Views system logs.
+
+Example: journalctl -u nginx
+
+crontab
+
+Schedules jobs.
+
+Example: crontab -e
+
+ssh
+
+Connects to remote servers.
+
+Example: ssh user@server-ip
+
+scp
+
+Copies files between servers.
+
+Example: scp file.txt user@server:/path
+
+nohup
+
+Runs command in background.
+
+Example: nohup java -jar app.jar &
+
+🔹 WHY THIS MATTERS FOR DEVOPS
+
+Linux commands are used daily for:
+
+Debugging servers
+
+Monitoring applications
+
+Handling logs
+
+Managing deployments
+
+Working with Docker and Kubernetes
+
+🧠 INTERVIEW ONE-LINER
+
+Linux commands help DevOps engineers manage servers, processes, networking, and deployments efficiently in production environments.
+
