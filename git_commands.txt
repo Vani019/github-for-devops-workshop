@@ -1,0 +1,14 @@
+ 1080  git init
+ 1081  git status
+ 1082  git add testing.py
+ 1083  git status
+ 1084  git commit -m "add testingfile"
+ 1085  git status
+ 1086  rm testing.py
+ 1087  ls
+ 1088  git statsu
+ 1089  git status
+ 1090  git restore testing.py
+ 1091  ls
+ 1092  clear
+ 1093  history
