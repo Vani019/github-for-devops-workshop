@@ -11,4 +11,6 @@
  1090  git restore testing.py
  1091  ls
  1092  clear
+
  1093  history
+sns
